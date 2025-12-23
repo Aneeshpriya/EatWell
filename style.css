@@ -1,0 +1,72 @@
+/* Navbar */
+.navbar {
+  background-color: #0d1b2a;
+}
+.nav-link {
+  padding-left: 20px; /* adjust gap as needed */
+}
+.navbar a {
+  color: #ffffff;
+}
+.navbar a:hover {
+  color: #4dabf7;
+}
+.navbar-nav {
+  gap: 10px;
+}
+
+/* Carousel */
+.carousel-item img {
+  height: 600px;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 250px;
+    min-width: 100%;
+  }
+}
+
+/* About section */
+.about-section h2 {
+  color: #d35400;
+  font-weight: 600;
+}
+.about-section p {
+  line-height: 1.7;
+  color: #555;
+}
+@media (max-width: 768px) {
+  .about-section h2 {
+    font-size: 24px;
+  }
+}
+
+/* Card section */
+.card-section h1 {
+  color: #d35400;
+  font-weight: 600;
+}
+.card-section .row {
+  margin-bottom: 40px;
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .card-section h1 {
+    font-size: 26px;
+  }
+}
+.footer a:hover {
+  color: #f39c12; /* yellow-orange on hover */
+  text-decoration: none;
+}
+
+footer i {
+  width: 20px;
+}
+.dropdown-item{
+  color: #0d1b2a;
+}

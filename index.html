@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+/>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+
+
+    <title>EatWell</title>
+  </head>
+  <body>
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid text-dark">
+    <a class="navbar-brand" href="#">EatWell</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav text-dark  ms-auto">
+        <li class="nav-item ">
+          <a class="nav-link "  href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        
+       <!-- Menu Dropdown -->
+        <li class="nav-item">
+          <a class="nav-link " href="gallery.html">Gallery</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="#specials">Specials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#contact" >Contact</a>
+        </li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+    <!--/nav bar-->
+   <!--carousel-->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+  </div>
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./img/carouselimg1.jpeg" class="d-block w-100" alt="Food 1">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/carouselimg2.jpeg" class="d-block w-100" alt="Food 2">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/carouselimg3.jpeg" class="d-block w-100" alt="Food 3">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/carouselimg4.jpeg" class="d-block w-100" alt="Food 4">
+    </div>
+  </div>
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+
+
+
+<!--/carousel-->
+    <!--about sec-->
+    <section class="about-section py-5" id="about">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Image side -->
+      <div class="col-12 col-md-6 mb-4 mb-md-0">
+        <img src="./img/restorent.jpg"
+             class="img-fluid rounded"
+             alt="About image">
+      </div>
+
+      <!-- Text side -->
+      <div class="col-12 col-md-6">
+        <h2 class="mb-3">About EatWell</h2>
+        <p>
+          At <strong>Eat Well Restaurant</strong>, we believe
+          good food brings people together. We serve fresh,
+          healthy, and delicious meals prepared with love
+          and the finest ingredients.
+        </p>
+        <p>
+          Our chefs focus on quality, taste, and hygiene to
+          give you the best dining experience — whether you
+          dine in or order online.
+        </p>
+       <a href="#" class="btn btn-warning mt-2">Explore Menu</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+    
+ <!--/about sec-->
+
+ <!--card-->
+
+ <div class="container card-section " id="specials">
+  <h1 class="mb-3 text-center">Our Specials</h1>
+
+  <!-- ROW 1 -->
+  <div class="row g-4 mt-4">
+    
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      <div class="card text-center border-warning h-100">
+        <img src="./img/card1.jpeg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5>Chicken Biriyani</h5>
+          <p>Tasty chicken biriyani.</p>
+          <h5 class="text-danger">Rs 150</h5>
+         <a href="#" class="btn btn-primary w-100">Order now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      <div class="card text-center border-warning h-100">
+        <img src="./img/card2.jpeg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5>Fish Curry</h5>
+          <p>Tasty Fish Curry.</p>
+          <h5 class="text-danger">Rs 100</h5>
+          <a href="#" class="btn btn-primary w-100">Order now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      <div class="card text-center border-warning h-100">
+        <img src="./img/card3.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5>Beef Fry</h5>
+          <p>Tasty Beef Fry.</p>
+          <h5 class="text-danger">Rs 200</h5>
+          <a href="#" class="btn btn-primary w-100">Order now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      <div class="card text-center border-warning h-100">
+        <img src="./img/card4.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5>Chicken Fry</h5>
+          <p>Tasty Chicken Fry.</p>
+          <h5 class="text-danger">Rs 180</h5>
+          <a href="#" class="btn btn-primary w-100">Order now</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  
+  <!-- ROW 2 -->
+  <div class="row g-4 mt-4">
+    
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+      <div class="card text-center border-warning h-100 ">
+        <img src="./img/card5.jpeg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5>Kizhi Porotta</h5>
+          <p>Tasty Kizhi Porotta.</p>
+          <h5 class="text-danger">Rs 150</h5>
+          <a href="#" class="btn btn-primary w-100">Order now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      <div class="card text-center border-warning h-100">
+        <img src="./img/card6.jpeg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5>Kuzhi Mandhi</h5>
+          <p>Tasty Kuzhi Mandhi.</p>
+          <h5 class="text-danger">Rs 650</h5>
+          <a href="#" class="btn btn-primary w-100">Order now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      <div class="card text-center border-warning h-100">
+        <img src="./img/card7.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5>Prawns Fry</h5>
+          <p>Tasty Prawns Fry.</p>
+          <h5 class="text-danger">Rs 300</h5>
+          <a href="#" class="btn btn-primary w-100">Order now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      <div class="card text-center border-warning h-100">
+        <img src="./img/card8.jpeg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5>Crab Curry</h5>
+          <p>Tasty Crab Curry.</p>
+          <h5 class="text-danger">Rs 280</h5>
+          <a href="#" class="btn btn-primary w-100">Order now</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ROW 3 -->
+  <div class="row g-4 mt-4">
+    
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12 ">
+      <div class="card text-center border-warning h-100 ">
+        <img src="./img/card9.jpeg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5>Masala Dosa</h5>
+          <p>Tasty Masala Dosa.</p>
+          <h5 class="text-danger">Rs 100</h5>
+          <a href="#" class="btn btn-primary w-100">Order now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      <div class="card text-center border-warning h-100">
+        <img src="./img/card10.jpeg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5>Veg Meals</h5>
+          <p>Tasty Veg Meals.</p>
+          <h5 class="text-danger">Rs 150</h5>
+          <a href="#" class="btn btn-primary w-100">Order now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      <div class="card text-center border-warning h-100">
+        <img src="./img/card11.jpeg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5>Puttu & Kadala</h5>
+          <p>Tasty Puttu & Kadala.</p>
+          <h5 class="text-danger">Rs 150</h5>
+          <a href="#" class="btn btn-primary w-100">Order now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      <div class="card text-center border-warning h-100">
+        <img src="./img/card12.png" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5>Appam and Veg Stew</h5>
+          <p>Tasty Appam and Veg Stew.</p>
+          <h5 class="text-danger">Rs 150</h5>
+          <a href="#" class="btn btn-primary w-100">Order now</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<!--Contact-->
+
+<section id="contact" class="contact-section py-5 bg-light" id="contact">
+  <div class="container">
+    <h2 class="text-center mb-4" style="color:#d35400; font-weight:600;">Contact Us</h2>
+    
+    <div class="row">
+      
+      <!-- Contact Info -->
+      <div class="col-md-6 mb-4">
+        <div class="p-4 bg-white rounded shadow-sm h-100">
+          <h5>Address</h5>
+          <p>EatWell Restorent,Alappuzha, Kerala, India</p>
+          
+          <h5>Phone</h5>
+          <p>+91 9876543210</p>
+          
+          <h5>Email</h5>
+          <p>eatwell571@gmail.com</p>
+          
+          <!-- Contact Social Icons -->
+<h5>Follow Us</h5>
+<a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="me-2">
+  <i class="fab fa-facebook fa-lg"></i>
+</a>
+<a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="me-2">
+  <i class="fab fa-instagram fa-lg"></i>
+</a>
+<a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+  <i class="fab fa-twitter fa-lg"></i>
+</a>
+
+        </div>
+      </div>
+      
+      <!-- Contact Form -->
+      <div class="col-md-6">
+        <div class="p-4 bg-white rounded shadow-sm h-100">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Write your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning w-100">Send Message</button>
+          </form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!--/Contact-->
+<!-- Footer -->
+<footer class="bg-dark text-light py-4">
+  <div class="container">
+    <div class="row">
+      <!-- Contact info -->
+      <div class="col-md-4 mb-4">
+        <h5 class="text-warning">Contact Us</h5>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Alappuzha beach side, City</p>
+        <p><i class="fas fa-phone me-2"></i>+91 9876543210</p>
+        <p><i class="fas fa-envelope me-2"></i>eatwell571@gmail.com</p>
+      </div>
+      <!--links-->
+<div class="col-md-4 mb-4">
+        <h5 class="text-warning">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+          <li><a href="#about" class="text-light text-decoration-none">About</a></li>
+          <li><a href="#specials" class="text-light text-decoration-none">Special</a></li>
+          <li><a href="#contact" class="text-light text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+      <!-- Social icons -->
+      <div class="col-md-4 mb-4">
+        <h5 class="text-warning">Follow Us</h5>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="text-light me-3">
+          <i class="fab fa-facebook-f fa-lg"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="text-light me-3">
+          <i class="fab fa-instagram fa-lg"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="text-light me-3">
+          <i class="fab fa-twitter fa-lg"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+    <!--  script-->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
